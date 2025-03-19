@@ -2943,8 +2943,8 @@ createApp({
     const isRefreshing = ref(false);  // 添加刷新状态
     const customId = ref(''); // 添加自定义ID输入框的值
     // 添加新的状态变量
-    const allowTextUpload = ref(false);  // 控制文本上传
-    const allowFileUpload = ref(false);  // 控制文件上传
+    const allowTextUpload = ref(true);  // 控制文本上传
+    const allowFileUpload = ref(true);  // 控制文件上传
     const showPasswordDialog = ref(false);
     const passwordTarget = ref(null);
     const newPassword = ref('');
